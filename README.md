@@ -17,7 +17,7 @@ This is a simple Flask-based login system built while learning Flask.
 ## How to Run
 
 1. Clone the repo:
-git clone https://github.com/anujsinha129/FLASK_PROJECT.git
+git clone https://github.com/anujsinha1429/FLASK_PROJECT.git
 
 2. Go inside folder:
 cd FLASK_PROJECT
