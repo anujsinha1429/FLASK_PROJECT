@@ -1,29 +1,61 @@
-# Flask Login App 🔐
+# Flask Project 🚀
 
-This is a simple Flask-based login system built while learning Flask.
+This repository contains multiple **Flask projects** that I am building while learning backend development with Python & Flask.
 
-## Features
+The goal of this repo is to keep all Flask-based mini projects in one place and improve them step by step.
+
+---
+
+## 📂 Projects Included
+
+### 🔐 Flask Login App
+A simple Flask-based login system.
+
+**Features:**
 - User login authentication
 - Session handling
-- Logout functionality
-- Clean UI using HTML templates
+- Login & logout flow
+- Clean folder structure
 
-## Tech Stack
+📁 Folder: `flask_login_app`
+
+---
+
+### 📝 Feedback App
+A basic feedback form built using Flask.
+
+**Features:**
+- User feedback submission
+- Form handling using Flask
+- HTML templates
+- Backend logic with Flask routes
+
+📁 Folder: `feedback_app`
+
+---
+
+## 🛠 Tech Stack
 - Python
 - Flask
-- HTML
-- Jinja2
+- HTML / CSS
+- Git & GitHub
 
-## How to Run
+---
 
-1. Clone the repo:
+## 📌 How to Run Any Project Locally
+
+```bash
+# clone the repository
 git clone https://github.com/anujsinha1429/FLASK_PROJECT.git
 
-2. Go inside folder:
+# move into project folder
 cd FLASK_PROJECT
 
-3. Install dependencies:
+# go inside any app
+cd flask_login_app   # or feedback_app
+
+# install dependencies
 pip install -r requirements.txt
 
-4. Run app:
+# run the app
 python app.py
