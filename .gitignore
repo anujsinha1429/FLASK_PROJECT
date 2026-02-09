@@ -4,4 +4,7 @@ __pycache__/
 venv/
 flaskenv/
 feedbackenv/
+flaskenv/
+venv/
+__pycache__/
 .env
