@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>
+        {% block title %} Login page {% endblock %} 
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #1b45ec;
+                margin: 0;
+                padding: 0;
+                text-align: center;
+                font-size: 50px;
+                height: 50px;
+                width: 100px;
+                display: inline-block;
+            }
+            h2 {
+                color: #230707;
+                text-align: center;
+                padding: 10px;
+                background-color: #f2b134;
+                text-align: center;
+            }
+            hr {
+                border: 0;
+                height: 1px;
+                background: #b8a609;
+                margin: 20px 0;
+                text-align: center;
+            }
+            header, footer {
+                text-align: center;
+                padding: 10px;
+                background-color: #ad1212;
+
+            }
+            
+        </style>
+
+    </title>
+</head>
+<body>
+    <h2 style=" padding-top: 10px 20px;display: flex; align-items: center; margin: auto; background-color: rgb(73, 229, 234);margin-top:20px; " > My Flask login page</h2>
+    <hr>
+    {% block content %}{% endblock %}
+    <hr>
+    <p style="width: auto; text-align: center; background-color: #b8a609; display: inline-block;"> @2026 flask app </p>
+    
+</body>
+</html>

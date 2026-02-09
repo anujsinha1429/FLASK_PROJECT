@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{%block title %} Thank you {% endblock %}
+
+{% block content %}
+
+<div class="card">
+    {% with messages = get_flashed_messages() %} 
+            {% if messages %}
+                <ul style="color: rgb(34, 158, 79);;">
+                    {% for message in messages %}
+                        <li>{{ message }}</li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        {% endwith %}
+        <br>
+        <br>
+        <br>
+    <h2>Thank You for Your Feedback!</h2>
+    <br><br>
+
+    <p>Your feedback message:</p>
+    <blockquote style="color: rgb(173, 66, 24);"> {{ msg }} </blockquote>
+    <br>
+    <br>
+    <p>We appreciate you taking the time to provide us with your thoughts.</p>
+    <br><br>
+
+    <a href="/">Submit Another Feedback</a>
+    </div>
+{% endblock %}
