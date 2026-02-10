@@ -1,5 +1,7 @@
 # Flask Project 🚀
 
+This repository is actively maintained as I continue learning Flask and backend development.
+
 This repository contains multiple **Flask projects** that I am building while learning backend development with Python & Flask.
 
 The goal of this repo is to keep all Flask-based mini projects in one place and improve them step by step.
